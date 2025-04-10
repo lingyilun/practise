@@ -1,0 +1,59 @@
+.mainRoleCalculatorFrame {
+  border: 5px solid;
+  width: 450px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0px 0px 30px 0px;
+}
+
+.resetButton {
+  text-align: end;
+  margin: 10px;
+}
+
+.calculatorTitle {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contentsFont {
+  font-weight: bold;
+}
+
+.info {
+  margin: 20px 10px;
+}
+
+.oprationDiv {
+  text-align: center;
+}
+
+.upgradeButton {
+  margin: 0px 30px 0px 20px;
+  width: 150px;
+}
+
+.downgradeButton {
+  margin: 0px 20px 0px 30px;
+  width: 150px;
+}
+
+.hint {
+  font-size: x-small;
+  color: red;
+}
+
+.editButtonDiv {
+  text-align: center;
+  margin: 15px;
+}
+
+.editButton {
+  width: 300px;
+}
+
+.editDiv {
+  margin: 0px 10px;
+}

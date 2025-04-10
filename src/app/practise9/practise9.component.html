@@ -7,4 +7,29 @@
   </div>
   <!-- 請將練習寫在這下面 -->
   <h3>練習</h3>
+
+  <div class="mainRoleCalculatorFrame">
+    <div class="resetButton">
+      <button (click)="resetLevel()">重置等級</button>
+    </div>
+    <h2 class="calculatorTitle">角色能力計算機</h2>
+    <div class="contentsFont info">目前等級：{{level}}</div>
+    <div class="oprationDiv">
+      <button class="upgradeButton" (click)="upgrade()">升級</button>
+      <button class="downgradeButton" (click)="downgrade()">降級</button>
+    </div>
+    <div class="contentsFont">
+      <div class="info">攻擊力：{{atk}}</div>
+      <div class="info">防禦力：{{def}}</div>
+    </div>
+    <div class="hint info">註解：角色初始等級為 1，初始攻擊與防禦均為 10。每提升 1 級攻擊力+3、防禦力+2，降級則攻擊力-3、防禦力-2。</div>
+    <div class="editDiv">
+      自定義等級：
+      <input type="number" [(ngModel)]="CustomLevel"/>
+    </div>
+    <div class="editButtonDiv">
+      <button (click)="editLevel()" class="editButton">修改等級</button>
+    </div>
+  </div>
+
 </div>
