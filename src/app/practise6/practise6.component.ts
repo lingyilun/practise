@@ -122,7 +122,7 @@ export class Practise6Component {
   // 練習7
   // 將這段文字中的名稱打印出來
   practise7() {
-    console.log('第六題');
+    console.log('第七題');
     let data = '我是Allen，你好';
     let name = data.slice(data.indexOf('Allen'), data.indexOf('Allen') + 5)
 
