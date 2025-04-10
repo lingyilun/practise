@@ -1,0 +1,44 @@
+.container{
+  background-color: #fff;
+}
+.box-group{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.box-group2{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.box1{
+  height: 80px;
+  width: 60px;
+  background-color:#ccd5ae;
+  color: white;
+}
+
+.box2{
+  background-color:#e9edc9;
+  color: black;
+  align-self: flex-end;
+}
+
+.box3{
+  background-color:#fefae0;
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-self: center;
+}
+.box4{
+  background-color:#faedcd;
+  color: black;
+  align-self: self-start;
+}
+.box5{
+  background-color:#d4a373;
+  color: white;
+  width: 60px;
+  height: 80px;
+}
