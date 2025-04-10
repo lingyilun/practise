@@ -11,6 +11,7 @@ export class Practise6Component {
 
   // 要觸發方法請解開裡面的方法
   ngOnInit(): void {
+    console.clear();
     this.practise1();
     this.practise2();
     this.practise3();
