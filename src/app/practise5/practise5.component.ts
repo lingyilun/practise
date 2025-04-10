@@ -9,4 +9,8 @@ import { Component } from '@angular/core';
 })
 export class Practise5Component {
 
+  title: string = '我是標題'
+  content: string = '我是內容'
+  imgSrc: string = 'https://stickershop.line-scdn.net/stickershop/v1/product/14832673/LINEStorePC/main.png'
+
 }
