@@ -1,0 +1,22 @@
+.bCss {
+  background-color: #474a4d;
+  height: 300px;
+  width: 300px;
+  position: relative;
+
+  .yCss {
+    background-color: #f7b977;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 0px;
+
+    .gCss {
+      background-color: #028760;
+      height: 100px;
+      width: 100px;
+      position: absolute;
+      bottom: 0px;
+    }
+  }
+}
