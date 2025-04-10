@@ -8,5 +8,11 @@ import { Component } from '@angular/core';
   styleUrl: './practise5.component.scss'
 })
 export class Practise5Component {
+  title = "我是標題";
+  content: string = "我是內容";
+  imgSrc: string = "/images1.png"
 
+  changeImg() {
+    this.imgSrc = '/images.jpg'
+  }
 }
