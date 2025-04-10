@@ -1,0 +1,69 @@
+//排版練習css
+.container{
+  background: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.imgs-group{
+  display: flex;
+  gap: 24px;
+  margin-bottom: 36px;
+}
+
+.img1{
+  width: 200px;
+  height: 200px;
+}
+
+.img2{
+  width: 300px;
+  height: 200px;
+}
+
+.box1{
+  background: #ce123c;
+  height: 100px;
+  width: 524px;
+  margin-bottom: 36px;
+}
+
+.input1{
+  width: 386px;
+  height: 20px;
+  margin-right: 18px;
+}
+
+.btn1{
+  width: 120px;
+  height: 20px;
+}
+
+//登入表單css
+.title{
+  text-align: center;
+  font-weight: bold;
+}
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-field{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+
+  label{
+    font-weight: bold;
+    align-self: end;
+    margin-right: 10px;
+  }
+
+  input{
+    border-radius: 35px;
+  }
+}
+
