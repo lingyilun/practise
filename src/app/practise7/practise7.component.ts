@@ -11,10 +11,10 @@ export class Practise7Component {
 
   // 要觸發方法請解開裡面的方法
   ngOnInit(): void {
-    // this.practise1();
-    // this.practise2();
-    // this.practise3();
-    // this.practise4();
+    this.practise1();
+    this.practise2();
+    this.practise3();
+    this.practise4();
   }
 
   // 練習1
@@ -23,6 +23,8 @@ export class Practise7Component {
     let allenMoney = 200;
     let hamburger = 50;
     let fries = 40;
+    let answer = allenMoney - hamburger - fries * 3;
+    console.log(answer);
   }
 
   // 練習2
@@ -31,6 +33,8 @@ export class Practise7Component {
     let allenMoney = 5000;
     let hamburger = 50;
     let fries = 40;
+    let answer = allenMoney - (hamburger * 10 + fries * 10) * 0.9;
+    console.log(answer);
   }
 
   // 練習3
@@ -50,6 +54,10 @@ export class Practise7Component {
         payMoney: 120
       }
     ]
+
+    for (let i = 0; jsonData[i].payMoney > 200; i++) {
+      console.log(jsonData[i].userName);
+    }
   }
 
   // 練習4
@@ -59,5 +67,20 @@ export class Practise7Component {
     let height = 165;
     // 體重輸入在這裡
     let weight = 65;
+    let BMI = weight / ((height/100)*(height/100));
+
+    if(BMI < 18.5){
+      console.log(BMI + '過輕')
+    }
+    else if(BMI > 18.5 && BMI < 24.9){
+      console.log(BMI + '正常')
+    }
+    else if(BMI > 25.0 && BMI < 29.9){
+      console.log(BMI + '過重')
+    }
+    else if(BMI >= 30){
+      console.log(BMI + '肥胖')
+    }
   }
+
 }
