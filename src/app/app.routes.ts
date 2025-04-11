@@ -34,6 +34,8 @@ import { Practise30Component } from './practise30/practise30.component';
 import { Practise31Component } from './practise31/practise31.component';
 import { Practise32Component } from './practise32/practise32.component';
 import { Practise33Component } from './practise33/practise33.component';
+import { Component2Component } from './practise8/component2/component2.component';
+import { Component1Component } from './practise8/component1/component1.component';
 
 //設定初始畫面為list(使用full判斷如果網址後面沒有路由就跳頁至list)
 export const routes: Routes = [
