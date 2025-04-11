@@ -7,4 +7,26 @@
   </div>
   <!-- 請將練習寫在這下面 -->
   <h3>練習</h3>
+
+  <div class="divCss">
+    <div class="reset">
+      <button class="resetBtn" (click)="reset()">重置</button>
+    </div>
+    <h3 class="title">角色等級計算機</h3>
+    <h5>等級 : {{ level }}</h5>
+    <div class="upDownDiv">
+      <button class="levelUp" (click)="levelUp()">升級</button>
+      <button class="levelDown" (click)="levelDown()">降級</button>
+    </div>
+    <h5>攻擊力 : {{ attack }}</h5>
+    <br>
+    <h5>防禦力 :  {{ defense }}</h5>
+    <br>
+    <h6 style="color: red;">註解 : 角色初始等級為1，初始攻擊/防禦為10，每提升一級攻擊*3 防禦*2，降級則除3跟2。</h6>
+    <br>
+    <label>自行輸入等級 : <input type="text" [(ngModel)]="inputLevel"></label>
+    <br><br>
+    <button class="resetLevelBtn" (click)="changeLevel()">修改等級</button>
+  </div>
+
 </div>
