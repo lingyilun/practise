@@ -70,14 +70,5 @@ export class Practise7Component {
     let height = 165;
     // 體重輸入在這裡
     let weight = 65;
-    let bmi = weight / ((height / 100) * (height / 100));
-    let level = "";
-    if (bmi < 18.5) level = "過輕"
-    else if (bmi >= 18.5 && bmi <= 24) level = "正常"
-    else if (bmi >= 24 && bmi < 27) level = "過重"
-    else if (bmi >= 27 && bmi <= 30) level = "輕度肥胖"
-    else if (bmi >= 30 && bmi <= 35) level = "中度肥胖"
-    else level = "重度肥胖"
-    console.log(level);
   }
 }
